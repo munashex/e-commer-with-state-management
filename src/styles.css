@@ -1,0 +1,34 @@
+.add_to_cart{
+    display: flex; 
+    flex-direction: column;
+}
+
+.card_body{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around;
+} 
+
+.image_cart{
+height: 150px
+}
+
+.cart_product_details{
+display: flex;
+flex-direction: row;  
+margin-bottom: 23px;
+}
+
+.card_con{
+    width: 200px;
+}
+
+@media (max-width: 412px){
+ .cart_image{
+    width: 140px;
+ }
+ .card_con {
+    width: 150px
+ }
+ 
+}
